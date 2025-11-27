@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shreelakshmi C - UI/UX Designer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+    <style>
+        /* This style makes the tool-badges work as links */
+        .contact-links {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 30px;
+        }
+        .contact-links .tool-badge {
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+        .contact-links .tool-badge:hover {
+            transform: translateY(-3px);
+            background-color: #00bcd4;
+            color: #111;
+        }
+    </style>
+</head>
+<body>
+    <div class="cursor-glow" id="cursorGlow"></div>
+
+    <div class="floating-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+        <div class="shape shape-4"></div>
+    </div>
+
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <div class="profile-frame">
+                <div class="profile-inner">
+                    <img src="profile.jpeg" alt="Shreelakshmi C" class="profile-photo">
+                </div>
+            </div>
+            <h1 class="hero-title">
+                <span class="greeting">Hi, I'm</span>
+                <span class="name">Shreelakshmi C</span>
+            </h1>
+            <p class="hero-subtitle">UI/UX Designer &amp; Creative Problem Solver</p>
+            <div class="hero-badges">
+                <span class="badge">Hudsmer Business Solutions</span>
+                <span class="badge">6 Months Experience</span>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-line"></div>
+            <span>Scroll to explore</span>
+        </div>
+    </section>
+
+    <section id="bio" class="bio-section">
+        <div class="particles"></div>
+        <div class="container">
+            <div class="bio-grid">
+                <div class="bio-left">
+                    <h2 class="section-title">
+                        <span class="title-line"></span>
+                        About Me
+                    </h2>
+                </div>
+                <div class="bio-right">
+                    <p class="bio-text">
+                        Creative, curious, and driven by purpose, I'm a designer who transforms ideas into intuitive, impactful experiences. I specialize in crafting clean user interfaces, engaging visual hierarchies, and cohesive brand identities that resonate with users.
+                    </p>
+                    <p class="bio-text">
+                        My design approach is rooted in core principles like usability, accessibility, consistency, and user-centered thinking. With 6 months of hands-on experience as a UI/UX designer at Hudsmer Business Solutions, I've worked on three real-time projects involving wireframing, prototyping, user flow mapping, interaction design, responsive design, and usability testing.
+                    </p>
+                    <p class="bio-text">
+                        I'm proficient in tools like Figma and Canva, currently learning Sketch, and exploring Photoshop to expand my visual design capabilities.
+                    </p>
+                    <p class="bio-text">
+                        Beyond interface design, I've created marketing collateral such as posters and social media creatives to elevate brand presence. I actively manage social media branding and have built an AI agent to automate content and post generation for digital platforms. I'm also exploring automation tools like n8n and Make to streamline design workflows and enhance productivity.
+                    </p>
+                    <p class="bio-text">
+                        With a solid foundation in design systems, layout grids, typography, color theory, and a passion for continuous learning, I strive to create design solutions that are not only visually compelling but also meaningful and memorable.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2 class="section-title centered">
+                <span class="title-line"></span>
+                Skills &amp; Expertise
+            </h2>
+            <div class="skills-grid">
+                <div class="skill-card" data-tilt>
+                    <div class="skill-icon">UI</div>
+                    <h3 class="skill-name">UI/UX Design</h3>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-progress="90"></div>
+                    </div>
+                    <span class="skill-level">Expert</span>
+                </div>
+                <div class="skill-card" data-tilt>
+                    <div class="skill-icon">GD</div>
+                    <h3 class="skill-name">Graphic Design</h3>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-progress="85"></div>
+                    </div>
+                    <span class="skill-level">Advanced</span>
+                </div>
+                <div class="skill-card" data-tilt>
+                    <div class="skill-icon">BI</div>
+                    <h3 class="skill-name">Power BI</h3>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-progress="75"></div>
+                    </div>
+                    <span class="skill-level">Proficient</span>
+                </div>
+                <div class="skill-card" data-tilt>
+                    <div class="skill-icon">SQL</div>
+                    <h3 class="skill-name">SQL</h3>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-progress="70"></div>
+                    </div>
+                    <span class="skill-level">Proficient</span>
+                </div>
+                <div class="skill-card" data-tilt>
+                    <div class="skill-icon">&lt;/&gt;</div>
+                    <h3 class="skill-name">HTML/CSS</h3>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-progress="80"></div>
+                    </div>
+                    <span class="skill-level">Advanced</span>
+                </div>
+                <div class="skill-card" data-tilt>
+                    <div class="skill-icon">DAX</div>
+                    <h3 class="skill-name">DAX Fundamentals</h3>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-progress="70"></div>
+                    </div>
+                    <span class="skill-level">Proficient</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tools" class="tools-section">
+        <div class="container">
+            <h2 class="section-title centered">
+                <span class="title-line"></span>
+                Tools I Use
+            </h2>
+            <div class="tools-grid">
+                <div class="tool-badge">Figma</div>
+                <div class="tool-badge">Canva</div>
+                <div class="tool-badge">Photoshop</div>
+                <div class="tool-badge">Make</div>
+                <div class="tool-badge">n8n</div>
+                <div class="tool-badge">Power BI</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="experience-section">
+        <div class="container">
+            <h2 class="section-title centered">
+                <span class="title-line"></span>
+                Experience
+            </h2>
+            <div class="experience-card">
+                <div class="experience-header">
+                    <div>
+                        <h3 class="experience-role">UI/UX Designer</h3>
+                        <p class="experience-company">Hudsmer Business Solutions</p>
+                    </div>
+                    <div class="experience-duration">6 months</div>
+                </div>
+                <div class="experience-responsibilities">
+                    <div class="responsibility-item">
+                        <span class="checkmark">✓</span>
+                        <span>Wireframing</span>
+                    </div>
+                    <div class="responsibility-item">
+                        <span class="checkmark">✓</span>
+                        <span>Prototyping</span>
+                    </div>
+                    <div class="responsibility-item">
+                        <span class="checkmark">✓</span>
+                        <span>User flow mapping</span>
+                    </div>
+                    <div class="responsibility-item">
+                        <span class="checkmark">✓</span>
+                        <span>Interaction design</span>
+                    </div>
+                    <div class="responsibility-item">
+                        <span class="checkmark">✓</span>
+                        <span>Responsive design</span>
+                    </div>
+                    <div class="responsibility-item">
+                        <span class="checkmark">✓</span>
+                        <span>Usability testing</span>
+                    </div>
+                </div>
+                <p class="bio-text" style="margin-top: 20px;">
+                    I worked as a UI/UX designer for six months at Hudsmer Business Solutions, where I contributed to three real-time projects focused on building user-friendly digital products. My approach blends creativity with usability, guided by principles like accessibility, consistency, and user-centered thinking. During my time there, I designed visually engaging posters to strengthen brand identity and actively managed social media content. I also developed an AI agent to automate content creation and posting for digital platforms, and I'm currently exploring automation tools like n8n and Make to streamline design workflows. I'm proficient in Figma and Canva, a beginner in Photoshop, and currently learning Sketch to expand my design toolkit. I'm passionate about continuous learning and committed to crafting meaningful, impactful design experiences that resonate with users.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="internship" class="experience-section">
+        <div class="container">
+            <h2 class="section-title centered">
+                <span class="title-line"></span>
+                Internship
+            </h2>
+            <div class="experience-card">
+                <div class="experience-header">
+                    <div>
+                        <h3 class="experience-role">Software Engineer</h3>
+                        <p class="experience-company">Hudsmer Business Solutions</p>
+                    </div>
+                    <div class="experience-duration">March 2025 - May 2025</div>
+                </div>
+                <p class="bio-text" style="margin-top: 20px;">
+                    My 3-month internship at Hudsmer Business Solutions was very productive. I learned how to properly manage social media, figuring out what content works best and why. I also became skilled at designing, using Figma to make professional digital graphics and Photoshop to create eye-catching posters. Most importantly, I learned how to use tools like n8n and Make to set up automation that can automatically create those posters, which saved the team a lot of time. In short, I gained a great mix of creative design, strategic marketing, and technical automation skills.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="experience-section">
+        <div class="container">
+            <h2 class="section-title centered">
+                <span class="title-line"></span>
+                Education
+            </h2>
+            <div class="experience-card">
+                <div class="experience-header">
+                    <div>
+                        <h3 class="experience-role">B.Tech - Information Technology</h3>
+                        <p class="experience-company">National Engineering College</p>
+                    </div>
+                    <div class="experience-duration">2022 - 2025</div>
+                </div>
+            </div>
+            <div class="experience-card">
+                <div class="experience-header">
+                    <div>
+                        <h3 class="experience-role">Diploma in Computer Science</h3>
+                        <p class="experience-company">Government Polytechnic College for Women</p>
+                    </div>
+                    <div class="experience-duration">2019 - 2022</div>
+                </div>
+            </div>
+            <div class="experience-card">
+                <div class="experience-header">
+                    <div>
+                        <h3 class="experience-role">SSLC</h3>
+                        <p class="experience-company">Sivanthi Matriculation Higher Secondary School</p>
+                    </div>
+                    <div class="experience-duration">2018 - 2019</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="publications" class="experience-section">
+        <div class="container">
+            <h2 class="section-title centered">
+                <span class="title-line"></span>
+                Publications
+            </h2>
+            <p style="text-align: center; max-width: 700px; margin: -20px auto 40px; color: #aaa; font-family: 'Inter', sans-serif;">
+                My research work contributions published in peer-reviewed international Conferences
+            </p>
+            
+            <div class="experience-card">
+                <h3 class="experience-role">IOT Enhanced Greeting System For Smart Environment</h3>
+                <p class="experience-company">
+                    3rd International Conference on Automation, Computing and Renewable Systems
+                </p>
+                <p style="font-style: italic; color: #aaa; margin-top: 10px; font-size: 0.9rem; font-family: 'Inter', sans-serif;">
+                    Authors: Divya Shree S, Muthu Bharathi M, Shreelakshmi C, Manimegalai M, Sebasthiani K
+                </p>
+                <p class="bio-text" style="margin-top: 20px;">
+                    This research presents a robust facial recognition system designed to boost user engagement and operational efficiency. The system uses strategically placed cameras and advanced CNNs to accurately identify individuals for personalized greetings. Its utility extends to practical applications like automated attendance tracking in schools, Colleges, etc., demonstrating its potential to create a more streamlined and efficient environment across various sectors.
+                </sppan>
+                <a href="https://ieeexplore.ieee.org/document/10841512/authors" target="_blank" rel="noopener noreferrer" style="display: inline-block; margin-top: 15px; color: #00bcd4; text-decoration: none; font-weight: 600; font-family: 'Space Grotesk', sans-serif;">
+                    View on IEEE Xplore ➔
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="tools-section" style="padding-bottom: 80px;"> <div class="container">
+            <h2 class="section-title centered">
+                <span class="title-line"></span>
+                Get In Touch
+            </h2>
+            <div class="contact-links">
+                <a href="tel:+916379239572" class="tool-badge">📞 Phone (+91 6379239572)</a>
+                <a href="mailto:shreechidambaram.07@gmail.com" class="tool-badge">✉️ Email</a>
+                <a href="https://www.linkedin.com/in/shreelakshmi-c-a019282b4/" class="tool-badge" target="_blank" rel="noopener noreferrer">💼 LinkedIn</a>
+            </div>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
